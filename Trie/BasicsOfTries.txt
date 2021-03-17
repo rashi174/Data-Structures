@@ -1,0 +1,15 @@
+A trie is a multi-way tree built based on the prefix of strings. Its nodes store the letters of an alphabet and point to multiple child nodes. 
+Here’s the process to build a trie containing the words “tree”, “trie”, “algo”, “string” and “struct”.
+
+The term “trie” comes from the word retrieval as strings can be retrieved 😎 by travelling down a branch path of the tree.
+
+>> Trie implementation
+
+The trie data structure can be implemented in many ways and usually contain thee basic functions: add word, search word and search for a prefix string. 
+The time complexity is O(k) for all functions, where k is the word length.
+
+>> Trie pros and cons
+
+1. We can efficiently do prefix search (e.g. auto-complete, spell checking) with Trie.
+2. The main disadvantage of tries is that they need a lot of memory for storing the strings. 
+Hence, if you don’t need to do prefix search, we can use hash set to check the existence of a word.
