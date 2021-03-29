@@ -2,7 +2,7 @@
 #Implementation of graph using adjacency matrix and BFS traversal
 
 class Graph:
-  adj=[]
+  adj=[]  #declaring adj matrix
 
   def __init__(self,v,e):
     self.v=v
