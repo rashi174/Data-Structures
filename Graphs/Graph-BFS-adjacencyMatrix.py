@@ -27,3 +27,16 @@ class Graph:
           queue.append(i)
           visited[i]=True
 
+#driver code
+
+# Driver code
+v, e = 5, 4
+
+# Create the graph
+G = Graph(v, e)
+G.addedge(0, 1)
+G.addedge(0, 2)
+G.addedge(1, 3)
+
+# Perform BFS
+G.bfs(0)
